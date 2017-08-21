@@ -1,0 +1,12 @@
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\bin\Debug\netcoreapp2.0\InMemDb.deps.json
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\bin\Debug\netcoreapp2.0\InMemDb.runtimeconfig.json
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\bin\Debug\netcoreapp2.0\InMemDb.runtimeconfig.dev.json
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\bin\Debug\netcoreapp2.0\InMemDb.dll
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\bin\Debug\netcoreapp2.0\InMemDb.pdb
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\obj\Debug\netcoreapp2.0\InMemDb.csprojResolveAssemblyReference.cache
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\obj\Debug\netcoreapp2.0\InMemDb.csproj.CoreCompileInputs.cache
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\obj\Debug\netcoreapp2.0\InMemDb.AssemblyInfoInputs.cache
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\obj\Debug\netcoreapp2.0\InMemDb.AssemblyInfo.cs
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\obj\Debug\netcoreapp2.0\InMemDb.dll
+C:\Users\erikj\Documents\PizzaButiken\InMemDb\obj\Debug\netcoreapp2.0\InMemDb.pdb
