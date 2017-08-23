@@ -22,7 +22,7 @@ namespace InMemDb.Controllers
         // GET: Dishes
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Dishes.ToListAsync());
+            return View(await _context.Dishes.Include(d=>d.DishIngredients).ThenInclude(d=>d.Ingredient).ToListAsync());
         }
 
         // GET: Dishes/Details/5
@@ -48,6 +48,7 @@ namespace InMemDb.Controllers
         // GET: Dishes/Create
         public IActionResult Create()
         {
+
             return View();
         }
 

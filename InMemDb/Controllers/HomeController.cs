@@ -5,23 +5,29 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using InMemDb.Models;
+using InMemDb.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace InMemDb.Controllers
 {
     public class HomeController : Controller
     {
+
+        private readonly ApplicationDbContext _context;
+
+        public HomeController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
         public IActionResult Index()
         {
-            return View();
-        }
+            var dishes = _context.Dishes.Include(di=>di.DishIngredients)
+                .ThenInclude(i=>i.Ingredient).ToList();
 
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
+            return View(dishes);
+        }     
+        
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";

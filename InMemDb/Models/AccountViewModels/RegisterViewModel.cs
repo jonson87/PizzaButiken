@@ -9,6 +9,18 @@ namespace InMemDb.Models.AccountViewModels
     public class RegisterViewModel
     {
         [Required]
+        [Display(Name = "Firstname")]
+        public string Firstname { get; set; }
+
+        [Required]
+        [Display(Name = "Lastname")]
+        public string Lastname { get; set; }
+
+        [Required]
+        [Display(Name = "Address")]
+        public string Address { get; set; }
+
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
@@ -19,6 +31,7 @@ namespace InMemDb.Models.AccountViewModels
         [Display(Name = "Password")]
         public string Password { get; set; }
 
+        [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
